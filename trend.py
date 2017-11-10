@@ -17,7 +17,7 @@ from arcpy.sa import *
 #===========================Arguments=====================
 arcpy.CheckOutExtension("spatial")
 # set the work directory
-work_dic = "G:\\CHENX\\data\\"
+work_dic = "d:\\data\\"
 # set the input file which contains the filename of raster
 raser_list_filename = ".\\trend_raster_list.txt"
 # set the number of rasters
