@@ -1,0 +1,7 @@
+1. 下载trend.py和trend_raster_list.txt文件；
+2. 将上述两个文件放到夜光遥感数据所在目录；
+3. 打开trend.py，按F5运行；
+4. 运行结果为trend.tif
+
+说明：trend_raster_list.txt内存储了所分析图像序列的文件名。编辑文件名可计算
+改变后序列的变化趋势。
