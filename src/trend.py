@@ -17,11 +17,11 @@ from arcpy.sa import *
 #===========================Arguments=====================
 arcpy.CheckOutExtension("spatial")
 # set the work directory
-work_dic = "G:\\CHENX\\data\\"
+work_dic = ".\\"
 # set the input file which contains the filename of raster
 raser_list_filename = ".\\trend_raster_list.txt"
 # set the number of rasters
-n = 22
+n = 14
 # set the output trend raster
 trend_raster = work_dic + "trend.tif"
 #=========================================================
