@@ -12,17 +12,17 @@ import arcpy
 arcpy.CheckOutExtension("spatial")
 
 # Local variables
-# 1364.tifËùÔÚÄ¿Â¼
+# 1364.tifæ‰€åœ¨ç›®å½•
 in_dir = "E:\\class\\GISRS\\Lecture_7\\Data\\Precipitation\\"
-# ÌáÈ¡Ö®ºóµÄRASTER´æ·ÅÂ·¾¶
+# æå–ä¹‹åçš„RASTERå­˜æ”¾è·¯å¾„
 out_dir = "E:\\class\\GISRS\\Lecture_7\\Data\\Precipitation\\china\\"
-# Mask ÎÄ¼ş
+# Mask æ–‡ä»¶
 china_bound = "E:\\class\GISRS\\Lecture_7\\Data\\Precipitation\\china_bound.shp"
-# ÎÄ¼şÃûÆğÊ¼±àºÅ
+# æ–‡ä»¶åèµ·å§‹ç¼–å·
 start_index = 1359
 end_index = 1382
 
-# Êä³öÍ³¼ÆÎÄ¼şÄ¿Â¼
+# è¾“å‡ºç»Ÿè®¡æ–‡ä»¶ç›®å½•
 stat_file = out_dir + "stat_prep.csv"
 fs_stat = open(stat_file,'w')
 print>>fs_stat,"Index",",","Mean"
