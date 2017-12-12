@@ -1,0 +1,4 @@
+training：   文件夹存储训练用图像
+test：       文件夹存储待识别的测试图像
+recg_face.m：运行此程序实现图像识别
+recgimg.m:   使用PCA的图像识别算法
