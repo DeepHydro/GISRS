@@ -1,0 +1,3 @@
+recognition: 该文件夹存储使用PCA算法实现人脸识别
+pca_basic.m： PCA原理示意
+pca_img.m:   使用PCA实现基本的图像变换
