@@ -5,17 +5,17 @@
 #  Created 11/10/2017 10:30 AM
 # Contact 11510857@mail.sustc.edu.cn
 #
- #µ÷ÓÃÄ£¿é
+ #è°ƒç”¨æ¨¡å—
 print 'import modules......\n\n'
 import arcpy
 import os
 print 'import modules over.\n\n'
 
-#ÉèÖÃÊäÈëtifÎÄ¼şËùÔÚÎÄ¼ş¼ĞµÄÄ¿Â¼
+#è®¾ç½®è¾“å…¥tifæ–‡ä»¶æ‰€åœ¨æ–‡ä»¶å¤¹çš„ç›®å½•
 input_dir = 'C:\\Gis\\Lecture7\\Budyko\\PPT'
 os.chdir(input_dir)
 
-#½«tifÎÄ¼ş×ª»»ÖÁÊäÈë¸ñÊ½
+#å°†tifæ–‡ä»¶è½¬æ¢è‡³è¾“å…¥æ ¼å¼
 list_input = []
 list_file_name = os.listdir(input_dir)
 for each in range(0,len(list_file_name)):
@@ -30,7 +30,7 @@ for each in range(0,len(list_input)):
 str_input = str_input[:-1]
 
 
-#ÉèÖÃÊä³öÄ¿Â¼
+#è®¾ç½®è¾“å‡ºç›®å½•
 output_name = 'sum_PPT'
 os.mkdir(output_name)
 output_path = os.path.join(input_dir,output_name,output_name + '.tif')
