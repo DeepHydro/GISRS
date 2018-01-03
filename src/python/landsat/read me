@@ -1,0 +1,2 @@
+本文件存储Landsat影响处理处理程序:
+1. ndvi.py: 直接读取_MTL.txt文件，计算NDVI. 注意该程序需要读取d.csv文件.
