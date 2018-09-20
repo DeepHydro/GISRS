@@ -23,6 +23,3 @@ for i=1:np2
 plot(y(1,i),y(2,i),'*-b')
 hold on
 end
-
-hold on
-line([0 0],[18 18])
