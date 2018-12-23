@@ -1,19 +1,33 @@
 # 2018-2019秋季GISRS课程
 ## 课程内容如下：
 Lecture1 GIS概述
+
 Lecture2 空间坐标系与投影
+
 Lecture3 矢量数据处理
+
 Lecture4 空间分析专题一
+
 Lecture5 空间分析专题二
+
 Lecture6 空间分析专题三
+
 Lecture7 GIS综合应用
+
 Lecture9 三维GIS
+
 Lecture11 空间地统计学
+
 Lecture12 遥感概论
+
 Lecture13 遥感物理量
+
 Lecture14 遥感光谱指数
+
 Lecture15 遥感图像分类
+
 Lecture16 GISRS综合应用
+
 ## 课程实验列表：
 1	中国人口分布图制作
 
